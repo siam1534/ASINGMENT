@@ -1,0 +1,469 @@
+/* Gogle fonts */
+@import url('<link href="https://fonts.googleapis.com/css2?family=Poppins');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    padding: 25px 150px;
+}
+.navbar ul{
+    text-align: left;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 35px;
+}
+.div-nav-list ul li a{
+    text-decoration: none;
+    color: #5A5A5A;
+    font-weight: 500;
+    font-family: 'Poppins';
+    font-size: 18px;
+}
+
+.logo{
+    width: 159px;
+    height: 48px;
+}
+.nav-list .ctn{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 18px 40px;
+    background-color: deeppink;
+}
+
+
+/* Backgraound */
+.container{
+    background-image: url('images/canada-2.jpeg');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.content{
+    padding-top: 200px;
+    padding-left: 200px;
+}
+.content h4{
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 500;
+}
+.content h1{
+    font-family: 'Poppins';
+    font-size: 80px;
+    color: rgb(5, 5, 61);
+}
+.content p{
+    font-family: 'Poppins';
+    color: #5A5A5A;
+    margin-top: 20px;
+}
+.nav-list-2{
+    display: flex;
+    margin-top: 40px;
+}
+.nav-list-2 li {
+    list-style: none;
+}
+.nav-list-2 li a{
+    text-decoration: none;
+}
+.nav-list-2 .ctn{
+    text-decoration: none;
+    color: white;
+     font-weight: 700;
+    font-size: 18px;
+     border-radius: 5px;
+    padding: 18px 40px;
+    background-color: deeppink;
+}
+ 
+.nav-list-2 .btn-2 {
+    border: 1px solid #5A5A5A;
+    font-weight: 700;
+    color: #5A5A5A;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 16px 40px;
+    margin-top: -18px;
+    margin-left: 20px;
+}
+
+/* Logos */
+.logo-image{
+    display: flex;
+    margin: 20px 200px;
+    justify-content: space-around;
+}
+.logos h4{
+    color: deeppink;
+    font-family: 'Poppins';
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.logo-img img{
+    width: 200px;
+    height: 80px;
+}
+
+/* Mission */
+.mission{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+.div-img{
+    width: 50%;
+}
+.div-img img{
+    margin: 200px;
+}
+.mission-para{
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 250px;
+}
+.mission-para h4{
+    color: deeppink;
+    font-family: 'Poppins';
+    font-size: 22px;
+    font-weight: 500;
+}
+.mission-para h1{
+    color:  rgb(5, 5, 61);
+    font-size: 80px;
+    font-family: 'Poppins';
+    margin-bottom: 40px;
+}
+.mission-para p{
+    color: #5A5A5A;
+    font-family: 'Poppins';
+    text-align: justify;
+    margin-bottom: 40px;
+}
+.mission-para li{
+    list-style: none;
+}
+.mission-para li a{
+    text-decoration: none;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 18px 40px;
+    background-color: deeppink;
+}
+
+/* Services */
+.services{
+    background-color: rgba(245, 245, 220, 0.745);
+    padding: 40px 400px;
+}
+.services h4{
+    color: deeppink;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 60px;
+}
+.services h1{
+    text-align: center;
+    font-family: 'Poppins';
+    color:  rgb(5, 5, 61);
+    font-size: 60px;
+    margin-bottom: 60px;
+}
+.container-services{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+     
+}
+.services-div{
+    width: 600px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.services-image img{
+    width: 150px;
+    height: 80px;
+    margin: 10px;
+}
+.services-writing{
+    padding: 10px;
+}
+.services-writing h2{
+    color:  rgb(5, 5, 61);
+    font-family: 'Poppins';
+}
+.services-writing p{
+    color: #5A5A5A;
+    font-family: 'Poppins';
+    text-align: justify;
+}
+.services li{
+    list-style: none;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.services li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 18px 40px;
+    background-color: deeppink;
+}
+
+/* Testimonials */
+.testimonials{
+    margin-top: 40px;
+    padding: 10px 400px;
+}
+.testimonials h4{
+    color: deeppink;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 60px;
+}
+.testimonials h1{
+    text-align: center;
+    font-family: 'Poppins';
+    color:  rgb(5, 5, 61);
+    font-size: 60px;
+    margin-bottom: 60px;
+}
+.client-says{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+}
+.client-div{
+    width: 500px;
+    border: 1px solid #5A5A5A;
+}
+.client-div-2{
+    width: 500px;
+    border: 1px solid #5A5A5A;
+}
+.client-image img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.client-content{
+    display: flex;
+    padding: 20px;
+}
+.icons{
+    padding: 20px;
+}
+.icons h3{
+    color: rgb(5, 5, 61);
+    font-size: 22px;
+    font-weight: 500;
+}
+.icons i{
+    color: gold;
+}
+.icon-2{
+    margin-right: 0px;
+}
+.icon-2 i{
+    padding-top: 30px;
+    padding-left: 200px;
+    color: deeppink;
+}
+
+.client-para{
+    color: #5A5A5A;
+    font-family: 'Poppins';
+    text-align: justify;
+    padding: 20px;
+}
+.dot{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.dot h1{
+    padding: 0px 10px;
+}
+
+/* Tody */
+.tody{
+    margin-top: 40px;
+    background: linear-gradient(deeppink, rgb(5, 5, 61));
+    
+}
+.tody h4{
+    color: white;
+    font-family: 'Poppins';
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 40px;
+}
+.tody h1{
+    color: white;
+    font-family: 'Poppins';
+    font-size: 60px;
+    text-align: center;
+}
+.tody p{
+    color: white;
+    font-family: 'Poppins';
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.input{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+    margin: 0px 400px;
+}
+.input input{
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+}
+.gender input{
+    width: 559.5px;
+    border-radius: 10px;
+    border: none;
+}
+.gender label{
+    color: white;
+    font-weight: 700;
+}
+.input-2{
+    margin: 0px 400px;
+    padding: 20px 0px;
+}
+.input-2 label{
+    color: white;
+    font-weight: 700;
+}
+.input-2 input{
+    padding: 20px;
+    width: 1150px;
+    border-radius: 10px;
+    border: none;
+}
+.input-icon{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+.input-icon li{
+    list-style: none;
+}
+.input-icon li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 18px 40px;
+    background-color: deeppink;
+}
+
+/* details */
+.detailes{
+    margin-top: 40px;
+    margin-bottom: 30PX;
+}
+.detailes-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2em;
+    margin: 0px 300px;
+    justify-content: center;
+}
+.logo-image-3{
+    padding-left: 100px;
+}
+.logo-image-3 img{
+    width: 100px;
+    height: 80px;
+}
+.logo-image-3 p{
+    color: #5A5A5A;
+    font-family: 'Poppins';
+    padding: 20px;
+}
+.use-link{
+    padding-left: 100px;
+}
+.use-link h2{
+    color: rgb(5, 5, 61);
+    font-family: 'Poppins';
+}
+.use-link p{
+    padding: 10px 0px;
+    color: #5A5A5A;
+    font-family: 'Poppins';
+}
+.contact{
+    padding-left: 100px;
+}
+.contact p{
+    padding: 13px 0px;
+    color: #5A5A5A;
+    font-family: 'Poppins';
+}
+.contact p i{
+    color: deeppink;
+    padding-right: 5px;
+}
+
+/* Footer */
+.footer{
+    margin: 30px 0px;
+}
+.footer-div{
+    margin: 0px 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.copyright p{
+    color: #5A5A5A;
+    font-family: 'Poppins';
+}
+.footer-icon{
+    color: deeppink;
+    font-size: 26px;
+}
